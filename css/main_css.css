@@ -1,0 +1,126 @@
+body{
+  margin: 0;
+  background-image: url('../images/tree.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  font-family: font-family: "Roboto", sans-serif;
+  font-size: 25px;
+	color:#81899B;
+	padding: 0px;
+}
+
+header{
+  position: fixed;
+  border-radius: 10px;
+  background: #22335A;
+  padding: 30px;
+  width: 95%;
+  height: 40px;
+  left: 10px;
+}
+
+.lft h3{
+  color: #81899B;
+  margin: 0;
+  text-transform: uppercase;
+  font-size: 30px;
+  font-weight: 600;
+}
+.lft span{
+  color: #95B2F4;
+}
+
+.sidebar{
+  background: #22335A;
+  border-radius: 10px;
+  margin-top: 120px;
+  padding-top: 30px;
+  padding-bottom: 40px;
+  position: fixed;
+  left: 10px;
+  width: 350px;
+  overflow:auto;
+  height:auto;
+  transition: 0.7s;
+  transition-property: left;
+}
+
+.sidebar .profile_image{
+  width: 100px;
+  height: 120px;
+  border-radius: 100px;
+  margin-bottom: 5px;
+}
+
+.sidebar h4{
+  color: #81899B;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.sidebar a{
+
+  color: #81899B;
+  display: block;
+  width: 100%;
+  line-height: 60px;
+  text-decoration: none;
+  padding-left: 40px;
+  box-sizing: border-box;
+  transition: .6s;
+  transition-property: background;
+  cursor: grab;
+  border-radius: 10px;
+}
+
+.sidebar a:hover{
+  background: grey;
+  color: white;
+  border-style: double;
+  transition: .5s;
+}
+
+.sidebar i{
+  padding-right: 10px;
+}
+
+label #sidebar_btn{
+  z-index: 1;
+  color: #fff;
+  position: fixed;
+  cursor: grab;
+  left: 390px;
+  font-size: 20px;
+  padding-left: 25px;
+  margin: 5px 0;
+  transition: .6s;
+}
+
+label #sidebar_btn:hover{
+  color: grey;
+}
+
+#check:checked ~ .sidebar{
+  left: -200px;
+}
+#check:checked ~ .sidebar a span{
+  display: none;
+}
+
+#check:checked ~.sidebar a{
+  font-size: 20px;
+  margin-left: 190px;
+  width: 80px;
+}
+.personal_statement{
+  margin-left: 390px;
+  margin-top: 150px;
+  position: fixed;
+  overflow:auto;
+  color: #B6BED1;
+}
+
+#check:checked ~ .personal_statement{
+  left: -100px;
+}
