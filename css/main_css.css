@@ -48,7 +48,7 @@ header{
 
 .sidebar .profile_image{
   width: 100px;
-  height: 120px;
+  height: auto;
   border-radius: 100px;
   margin-bottom: 5px;
 }
@@ -124,6 +124,7 @@ label #sidebar_btn:hover{
 .personal_statement{
   margin-left: 390px;
   margin-top: 150px;
+  width: 65%;
   position: fixed;
   overflow:auto;
   color: #B6BED1;

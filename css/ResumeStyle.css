@@ -16,9 +16,31 @@ body{
 div{
   background-color: rgba(198,217, 236, 0.3);
 }
+
+.top_page{
+  width: 100%;
+  background: #22335A;
+  border-radius: 10px;
+  height: 40px;
+  margin-bottom: 10px;
+}
+.top_page h3{
+  color: #81899B;
+  margin: 5px;
+  margin-bottom: 10px;
+  height: 5%;
+  text-transform: uppercase;
+  font-size: 30px;
+  font-weight: 600;
+  padding-left: 15px;
+  padding-top: 3px;
+}
+.top_page span{
+  color: #95B2F4;
+}
+
 .content {
-  max-width: 600px;
-  margin: auto;
+  margin-left: 10%;
 }
 
 .left_col{
@@ -32,6 +54,8 @@ div{
 
 .panel div{
   border-radius: 10px;
+  margin: 5px;
+  padding: 5px;
 }
 .image img{
   height: 200px;
@@ -54,6 +78,7 @@ div{
   margin-top: 20px;
   margin-left: 20px;
   margin-right: 10px;
+  margin-bottom: 5px;
   padding: 10px;
 }
 
@@ -67,8 +92,7 @@ div{
   position: relative;
   margin-left: 260px;
   margin-right: 10px;
-
-  width: 700px;
+  width: 70%;
   height: auto;
 }
 
