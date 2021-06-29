@@ -1,0 +1,201 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family:Poppins;
+}
+body{
+  background-image:url('../../images/vacat_images/beach.png');
+  background-repeat:no-repeat;
+  background-size: cover;
+  width: auto;
+  Height: auto;
+}
+.navbr {
+	background-color:rgba(167, 152, 152, 0.75);
+	opacity:1;
+	width:100%;
+	height:6%;
+	position:absolute;
+	left:0px;
+	top:0px;
+}
+.navspan
+{
+  padding-left: 45%;
+}
+#tan {
+	box-shadow:0px 4px 4px rgba(0, 0, 0, 0.0);
+	color:rgba(70, 53, 53, 1);
+	opacity:1;
+	width:15%;
+	height:auto;
+	position:absolute;
+	left:10px;
+	top:4px;
+  padding-bottom: 5px;
+	font-family:Poppins;
+	text-align:center;
+	font-size: calc(.5em + 1vw);
+	letter-spacing:0;
+	line-height:undefined;
+}
+a{
+  color:rgba(70, 53, 53, 1);
+  text-decoration:none;
+}
+a:hover
+{
+    color:white;
+}
+#adv {
+	box-shadow:0px 4px 4px rgba(0, 0, 0, 0);
+	color:rgba(70, 53, 53, 1);
+	opacity:1;
+	width:auto;
+	height:auto;
+	position:relative;
+	top:4px;
+  padding: 10px 10px 10px 10px;
+	font-family:Poppins;
+	text-align:center;
+	font-size:calc(.25em + 1vw);
+	letter-spacing:0;
+	line-height:undefined;
+}
+#cult {
+	box-shadow:0px 4px 4px rgba(0, 0, 0, 0);
+	color:rgba(70, 53, 53, 1);
+	opacity:1;
+	width:auto;
+	height:auto;
+	position:relative;
+  padding-left:0;
+	left:10px;
+	top:4px;
+  padding: 10px 10px 10px 10px;
+	font-family:Poppins;
+	text-align:center;
+	font-size:calc(.25em + 1vw);
+	letter-spacing:0;
+	line-height:normal;
+}
+#lodg {
+	box-shadow:0px 4px 4px rgba(0, 0, 0, 0);
+	color:rgba(70, 53, 53, 1);
+	opacity:1;
+	width:auto;
+	height:auto;
+	position:relative;
+  padding-left: 0;
+	left:10px;
+	top:4px;
+  padding: 10px 10px 10px 10px;
+	font-family:Poppins;
+	text-align:center;
+	font-size:calc(.25em + 1vw);
+	letter-spacing:0;
+	line-height:normal;
+}
+#din {
+  box-shadow:0px 4px 4px rgba(0, 0, 0, 0);
+  color:rgba(70, 53, 53, 1);
+  opacity:1;
+  width:auto;
+  height:100%;
+  position:relative;
+  padding-left: 0;
+  left:10px;
+  top:4px;
+  padding: 5px 5px 5px 5px;
+  font-family:Poppins;
+  text-align:center;
+  font-size:calc(.25em + 1vw);
+  letter-spacing:0;
+  line-height:normal;
+}
+#abt{
+  box-shadow:0px 4px 4px rgba(0, 0, 0, 0);
+  color:rgba(70, 53, 53, 1);
+  opacity:1;
+  width:auto;
+  height:auto;
+  position:relative;
+  padding-left: 0;
+  left:10px;
+  top:4px;
+  padding: 10px 5px 5px 5px;
+  font-family:Poppins;
+  text-align:center;
+  font-size:calc(.25em + 1vw);
+  letter-spacing:0;
+  line-height:normal;
+}
+#cont{
+  box-shadow:0px 4px 4px rgba(0, 0, 0, 0);
+  color:rgba(70, 53, 53, 1);
+  opacity:1;
+  width:auto;
+  height:auto;
+  position:relative;
+  padding-left: 0;
+  left:10px;
+  top:4px;
+  padding: 10px 5px 5px 5px;
+  font-family:Poppins;
+  text-align:center;
+  font-size: calc(.25em + 1vw);
+  letter-spacing:0;
+  line-height:normal;
+}
+#lodg:hover, #din:hover, #cult:hover, #adv:hover, #abt:hover, #btn:hover,
+#cont:hover
+{
+  background-color:rgba(64, 57, 58);
+  color:white;
+  border-radius: 5px;
+  border-style: solid 1px;
+}
+#btntxt:hover
+{
+  color:white;
+}
+
+#wel {
+  text-shadow: 5px 5px 5px rgba(0, 0, 0, .20);
+	color:rgba(70, 53, 53, 1);
+	opacity:1;
+	position:absolute;
+	left:10%;
+	top: 25%;
+  width: 40%;
+  height: 30%;
+	font-family:Poppins;
+	text-align:center;
+	font-size:calc(2em + 2vw);
+	letter-spacing: .3em;
+	line-height:undefined;
+}
+#btn
+{
+  position:absolute;
+  box-shadow:0px 4px 4px rgba(0, 0, 0, 0.25);
+	background-color:rgba(111, 92, 92, 0.4);
+  border-radius: 10px;
+  left:20%;
+	top: 50%;
+}
+#btntxt
+{
+  color:rgba(70, 53, 53, 1);
+	opacity:1;
+	font-family:Poppins;
+	text-align:center;
+	font-size:calc(.5em + 1vw);
+  padding: 10px;
+	letter-spacing:0;
+	line-height:undefined;
+}
