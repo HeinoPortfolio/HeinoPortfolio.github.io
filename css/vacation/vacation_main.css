@@ -11,65 +11,66 @@ body{
   background-image:url('../../images/vacat_images/beach.png');
   background-repeat:no-repeat;
   background-size: cover;
+  background-attachment: fixed;
   width: auto;
-  Height: auto;
+  height: auto;
+  color:rgb(251, 250, 250);
 }
 .navbr {
-	background-color:rgba(167, 152, 152, 0.75);
+	background-color:rgba(167, 152, 152, 0.3);
 	opacity:1;
 	width:100%;
-	height:6%;
+	height:auto;
 	position:absolute;
 	left:0px;
 	top:0px;
+  padding: 5px;
 }
 .navspan
 {
-  padding-left: 45%;
+  margin-left: 40%;
+  padding-left: auto;
 }
 #tan {
 	box-shadow:0px 4px 4px rgba(0, 0, 0, 0.0);
-	color:rgba(70, 53, 53, 1);
 	opacity:1;
 	width:15%;
 	height:auto;
 	position:absolute;
 	left:10px;
 	top:4px;
-  padding-bottom: 5px;
-	font-family:Poppins;
+  padding: 5px;
 	text-align:center;
 	font-size: calc(.5em + 1vw);
-	letter-spacing:0;
 	line-height:undefined;
 }
 a{
-  color:rgba(70, 53, 53, 1);
   text-decoration:none;
+  color:rgb(251, 250, 250);
+
 }
 a:hover
 {
     color:white;
 }
+
+#adv, #cult, #lodg, #din, #abt, #cont{
+  letter-spacing:2px;
+	line-height:1.6;
+	text-align:center;
+	font-size:calc(.25em + 1vw);
+}
 #adv {
 	box-shadow:0px 4px 4px rgba(0, 0, 0, 0);
-	color:rgba(70, 53, 53, 1);
 	opacity:1;
 	width:auto;
 	height:auto;
 	position:relative;
 	top:4px;
   padding: 10px 10px 10px 10px;
-	font-family:Poppins;
-	text-align:center;
-	font-size:calc(.25em + 1vw);
-	letter-spacing:0;
-	line-height:undefined;
 }
 #cult {
 	box-shadow:0px 4px 4px rgba(0, 0, 0, 0);
-	color:rgba(70, 53, 53, 1);
-	opacity:1;
 	width:auto;
 	height:auto;
 	position:relative;
@@ -77,16 +78,11 @@ a:hover
 	left:10px;
 	top:4px;
   padding: 10px 10px 10px 10px;
-	font-family:Poppins;
-	text-align:center;
-	font-size:calc(.25em + 1vw);
-	letter-spacing:0;
-	line-height:normal;
+
+
 }
 #lodg {
 	box-shadow:0px 4px 4px rgba(0, 0, 0, 0);
-	color:rgba(70, 53, 53, 1);
-	opacity:1;
 	width:auto;
 	height:auto;
 	position:relative;
@@ -94,16 +90,11 @@ a:hover
 	left:10px;
 	top:4px;
   padding: 10px 10px 10px 10px;
-	font-family:Poppins;
-	text-align:center;
-	font-size:calc(.25em + 1vw);
-	letter-spacing:0;
-	line-height:normal;
+
 }
+
 #din {
   box-shadow:0px 4px 4px rgba(0, 0, 0, 0);
-  color:rgba(70, 53, 53, 1);
-  opacity:1;
   width:auto;
   height:100%;
   position:relative;
@@ -111,16 +102,10 @@ a:hover
   left:10px;
   top:4px;
   padding: 5px 5px 5px 5px;
-  font-family:Poppins;
-  text-align:center;
-  font-size:calc(.25em + 1vw);
-  letter-spacing:0;
-  line-height:normal;
+
 }
 #abt{
   box-shadow:0px 4px 4px rgba(0, 0, 0, 0);
-  color:rgba(70, 53, 53, 1);
-  opacity:1;
   width:auto;
   height:auto;
   position:relative;
@@ -128,16 +113,10 @@ a:hover
   left:10px;
   top:4px;
   padding: 10px 5px 5px 5px;
-  font-family:Poppins;
-  text-align:center;
-  font-size:calc(.25em + 1vw);
-  letter-spacing:0;
-  line-height:normal;
+
 }
 #cont{
   box-shadow:0px 4px 4px rgba(0, 0, 0, 0);
-  color:rgba(70, 53, 53, 1);
-  opacity:1;
   width:auto;
   height:auto;
   position:relative;
@@ -145,11 +124,7 @@ a:hover
   left:10px;
   top:4px;
   padding: 10px 5px 5px 5px;
-  font-family:Poppins;
-  text-align:center;
-  font-size: calc(.25em + 1vw);
-  letter-spacing:0;
-  line-height:normal;
+
 }
 #lodg:hover, #din:hover, #cult:hover, #adv:hover, #abt:hover, #btn:hover,
 #cont:hover
@@ -164,38 +139,39 @@ a:hover
   color:white;
 }
 
+.welcome{
+  left:20%;
+  top: 9%;
+  position:fixed;
+}
 #wel {
   text-shadow: 5px 5px 5px rgba(0, 0, 0, .20);
-	color:rgba(70, 53, 53, 1);
-	opacity:1;
-	position:absolute;
-	left:10%;
-	top: 25%;
-  width: 40%;
-  height: 30%;
-	font-family:Poppins;
+	position:relative;
+  width: 50%;
+  height: auto;
 	text-align:center;
+  display:block;
 	font-size:calc(2em + 2vw);
 	letter-spacing: .3em;
-	line-height:undefined;
+	line-height:1.6;
 }
 #btn
 {
-  position:absolute;
+  position:relative;
+
   box-shadow:0px 4px 4px rgba(0, 0, 0, 0.25);
 	background-color:rgba(111, 92, 92, 0.4);
   border-radius: 10px;
-  left:20%;
-	top: 50%;
+  border: 2px gray solid;
+  width: 20%;
+  left: 15%;
+  text-align: center;
 }
 #btntxt
 {
+
   color:rgba(70, 53, 53, 1);
-	opacity:1;
-	font-family:Poppins;
-	text-align:center;
 	font-size:calc(.5em + 1vw);
-  padding: 10px;
-	letter-spacing:0;
-	line-height:undefined;
+	letter-spacing: 0.3em;
+	line-height:1.6;
 }
