@@ -17,6 +17,7 @@ body{
   font-size: 25px;
   color:#070707;
   padding: 20px;
+  word-wrap: break-word;
 }
 div{
   background-color: rgba(198,217, 236, 0.3);
