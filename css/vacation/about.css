@@ -62,7 +62,7 @@ a{
   letter-spacing:2px;
   line-height:1.6;
   position:relative;
-  font-size: calc(.10em + 1vw);
+  font-size:calc(.25em + 1vw);
 }
 
 #lodg:hover, #din:hover, #cult:hover, #adv:hover
