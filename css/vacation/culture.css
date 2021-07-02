@@ -9,7 +9,7 @@
 }
 
 body{
-background-image:url("../../images/vacat_images/manstandingonhill.jpg");
+  background-image:url("../../images/vacat_images/museumfacade.jpg");
   background-repeat:no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -18,8 +18,8 @@ background-image:url("../../images/vacat_images/manstandingonhill.jpg");
   color:rgb(251, 250, 250);
 }
 .navbr {
-  background-color:rgb(103, 100, 102, 0.5);
-	width:auto;
+  background-color:rgb(103, 100, 102, 0.2);
+	width:100%;
 	height:auto;
 	position:relative;
 	left:0px;
@@ -33,17 +33,13 @@ background-image:url("../../images/vacat_images/manstandingonhill.jpg");
 }
 #tan {
 	box-shadow:0px 4px 4px rgba(0, 0, 0, 0.0);
-	color:rgb(251, 250, 250);
+	color:rgb(255, 255, 255);
 	width:auto;
 	height:auto;
 	position:fixed;
 	left:auto;
 	text-align:center;
 	letter-spacing:2px;
-}
-a{
-  color:rgb(251, 250, 250);
-  text-decoration:none;
 }
 
 #adv, #cult, #lodg, #din, #abt, #cont {
@@ -58,33 +54,27 @@ a{
   text-align:center;
   font-size:calc(.25em + 1vw);
 }
+
 #adv {
-	top:4px;
+
 }
 #cult {
-  padding-left:0;
 	left:10px;
-	top:4px;
+
 }
 #lodg {
-  padding-left: 0;
 	left:10px;
-	top:4px;
 }
 #din {
-  padding-left: 0;
+
   left:10px;
-  top:4px;
 }
 #abt{
-  padding-left: 0;
   left:10px;
-  top:4px;
+
 }
 #cont{
-  padding-left: 0;
   left:10px;
-  top:4px;
 }
 
 #lodg:hover, #din:hover, #cult:hover, #adv:hover, #abt:hover, #btn:hover,
@@ -96,23 +86,18 @@ a{
   border-radius: 5px;
   border-style: solid 1px;
 }
-#topimg{
-  padding:0;
-  width:100%;
-  height:400px;
-}
 #inner_container
 {
   width: auto;
-  Height: auto;
+  height: auto;
 }
-#adventure{
+#museum{
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
 a{
-  rgb(251, 250, 250);
+  color:rgb(251, 250, 250);
   text-decoration:none;
 }
 a:hover{
@@ -120,6 +105,10 @@ a:hover{
 }
 h1{
   box-shadow:4px 2px 2px rgba(0, 0, 0, 0.25);
+}
+.center{
+  text-align:center;
+  font-size: 2.5vh;
 }
 .everything{
   text-align:center;
@@ -130,11 +119,10 @@ h1{
   height: auto;
   color:white;
 }
-
 .row{
-display: flex;
-padding: 20px;
-text-align:left;
+  display: flex;
+  padding: 20px;
+  text-align:left;
 }
 
 .column1{
@@ -146,7 +134,7 @@ text-align:left;
   background-color: white;
   box-shadow:5px 5px 5px rgba(0, 0, 0, 0.65);
   border-radius: 5px;
-  background-color:rgba(0, 0, 0, 0.3);
+  background-color:rgba(255, 255, 255, 0.45)
 }
 .column2{
   width: 50%;
@@ -157,18 +145,9 @@ text-align:left;
   background-color: white;
   box-shadow:5px 5px 5px rgba(0, 0, 0, 0.65);
   border-radius: 5px;
-  background-color:rgba(0, 0, 0, 0.3);
+  background-color:rgba(255, 255, 255, 0.45);
 }
-
-
 footer{
   padding-top: 1%;
   height: 20%;
-}
-#int{
-  color:blue;
-}
-#int:hover{
-  color:blue;
-  font-size: 16px;
 }
