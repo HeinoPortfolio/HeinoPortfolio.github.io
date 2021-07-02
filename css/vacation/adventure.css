@@ -24,7 +24,8 @@ background-image:url("../../images/vacat_images/manstandingonhill.jpg");
 	position:relative;
 	left:0px;
 	top:0px;
-  padding:10px;
+  padding:5px;
+  font-size:calc(.5em + 1vw);
 }
 .navspan
 {
@@ -89,8 +90,9 @@ a{
 #lodg:hover, #din:hover, #cult:hover, #adv:hover, #abt:hover, #btn:hover,
  #cont:hover
 {
-  background-color:rgba(64, 57, 58);
+  background-color:grey;
   color:white;
+  height:auto;
   border-radius: 5px;
   border-style: solid 1px;
 }
