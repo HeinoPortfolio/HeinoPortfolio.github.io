@@ -26,7 +26,7 @@ body{
 }
 .navspan
 {
-  padding-left: 55%;
+  padding-left: 45%;
   padding-bottom: 10px;
   color:rgb(250, 250, 250);
 }
@@ -38,9 +38,9 @@ body{
 	position:absolute;
 	left:auto;
 	top:4px;
-  padding-top: 0px;
+  padding-top: 5px;
 	text-align:center;
-	font-size:calc(.5em + 1vw);
+	font-size:calc(.10em + 1vw);
 	letter-spacing:0;
 	line-height:undefined;
 }
@@ -62,7 +62,7 @@ a{
   letter-spacing:2px;
   line-height:1.6;
   position:relative;
-  font-size:calc(.25em + 1vw);
+  font-size:calc(.10em + 1vw);
 }
 
 #lodg:hover, #din:hover, #cult:hover, #adv:hover

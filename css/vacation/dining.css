@@ -54,7 +54,7 @@ color:rgb(251, 250, 250);
 	top:4px;
   padding-top: 0px;
 	text-align:center;
-	font-size:calc(.5em + 1vw);
+	font-size:calc(.10em + 1vw);
 	letter-spacing:0;
 	line-height:1.6;
 }
