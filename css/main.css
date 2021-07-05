@@ -14,8 +14,63 @@ body{
   background-size: cover;
   word-wrap: break-word;
 }
+
+header{
+    background: rgb(129, 137, 156, 0.8);;
+    position:fixed;
+    width:100%;
+    height:5%;
+    z-index: 3;
+    box-shadow: 0px 2px 2px 2px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+}
+
+h1.header_title {
+  float: left;
+  padding: 3px;
+  color: #22335A;
+  font-size: 30px;
+  text-transform: uppercase;
+  font-weight: 900;
+  margin-left: 10px;
+  margin-top: 0px;
+}
+span.port{
+  color:#5f75a6;
+}
+ul.nav_list{
+
+  width: auto;
+  height:100%;
+  float: right;
+  margin-top: 5px;
+  margin-right: 10%;
+  padding:3px;
+}
+li.nav_list{
+  display: inline-block;
+  height: 40px;
+  padding: 3px;
+  font-size:20px;
+}
+a.nav_list{
+  text-align: center;
+  color: white;
+  text-decoration: none;
+
+}
+
+a.nav_list:hover{
+  background-color:#22335A;
+}
+
+
+
+
+
+/* Begin main body*/
 .wrapper .header{
-  z-index: 3;
+  z-index:1;
   background: rgb(129, 137, 156, 0.8);
   border-radius: 0% 0% 8px 8px;
   box-shadow: 0px 2px 2px 2px rgba(0, 0, 0, 0.3);
@@ -27,17 +82,13 @@ body{
   top: 0;
 }
 
-.wrapper .header .title{
+.wrapper .header{
   color: #22335A;
   font-size: 30px;
   text-transform: uppercase;
   font-weight: 900;
   margin-left: 10px;
   margin-top: 10px;
-}
-
-.wrapper .header .title span{
-  color: #95B2F4;
 }
 
 .wrapper .sidebar{
@@ -86,6 +137,8 @@ body{
   border-radius: 5px;
   margin: 7px;
   overflow: hidden;
+
+  color: white;
 }
 
 .menu-btn{
