@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+body{
+  margin: 10px;
+background-color: white;
+background-image: url('../images/pexels-pixabay-290595.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  font-family: "Roboto", sans-serif;
+  font-size: 25px;
+  color:#070707;
+  padding: 20px;
+  word-wrap: break-word;
+}
+header{
+    background: rgb(129, 137, 156, 0.8);;
+    position:fixed;
+    width:95%;
+    height:5%;
+    z-index: 3;
+    box-shadow: 0px 2px 2px 2px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+}
+h1.header_title {
+  float: left;
+  padding: 3px;
+  color: #22335A;
+  font-size: 30px;
+  text-transform: uppercase;
+  font-weight: 900;
+  margin-left: 10px;
+  margin-top: 3px;
+}
+span.port{
+  color: #95B2F4;
+}
+ul.nav_list {
+  font-size: 25px;
+  float: right;
+  width: auto;
+  margin-right: 10%;
+  margin-top: 0px;
+  padding:0px;
+}
+li.nav_list{
+  display: inline-block;
+   height: 5%;
+   margin-top: 9px;
+   margin-left: 10px
+}
+a.nav_list{
+  text-align: center;
+  color: white;
+  text-decoration: none;
+}
+a.nav_list:hover{
+  background-color:#22335A;
+}
+a:visited {
+  color: #95B2F4;
+}
+/* Main section starts here*/
+.book-center{
+ position: absolute;
+ left: 30%;
+ top: 15%;
+ height: auto;
+ width: 40%;
+}
+div.info{
+  margin-top:10px;
+  background: rgb(129, 137, 156, 0.8);
+  border-radius: 10px;
+  box-shadow: 0px 2px 2px 2px rgba(0, 0, 0, 0.3);
+  font-size: 20px;
+  line-height:1.3;
+  color: white;
+}
+h2{
+  text-align: center;
+  color: white;
+  margin:3px;
+}
+span.info{
+  color:#435d96;
+}
+p{
+  padding: 10px;
+}
