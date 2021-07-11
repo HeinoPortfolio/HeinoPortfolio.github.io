@@ -12,8 +12,8 @@ body{
   background-image: url('../images/pexels-lukas-kloeppel-466685.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size: cover;
-  font-family: font-family: "Roboto", sans-serif;
+
+  font-family:  "Roboto", sans-serif;
   font-size: 25px;
   color:#070707;
   padding: 20px;
@@ -246,6 +246,10 @@ a:visited {
   padding-bottom: 1px;
   padding-top: 1px;
   font-size: 18;
+}
+.project_list_ul li{
+  list-style-type: circle;
+  margin-left: 5%;
 }
 
 .function{
