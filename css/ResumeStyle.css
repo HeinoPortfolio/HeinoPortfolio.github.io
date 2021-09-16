@@ -173,6 +173,32 @@ a:visited {
   text-decoration: underline;
 }
 
+h1.work_header{
+
+  color: #95B2F4;
+  text-decoration: underline;
+}
+.work_space span{
+  margin-top: 1%;
+  margin-bottom:1%;
+}
+.work_list ul{
+  line-height: 1.6;
+  column-count: 2;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+
+.work_list li{
+
+  list-style-type: circle;
+  margin-left: 5%;
+  margin-bottom: 3%;
+  margin-top: 3%;
+  font-size: 16px;
+
+}
+
 .course_list_1 ul{
   line-height: 1.6;
   column-count: 2;
@@ -196,7 +222,7 @@ a:visited {
     margin-left: 5%;
 }
 
-.profile, .education, .cont_education, .project, .skills{
+.profile,.work_experience,.education, .cont_education, .project, .skills{
   background: rgb(34, 51, 91, 0.8);
   box-shadow: 0px 0px 3px 2px rgba(0, 0, 0, 0.25);
   color: white;
@@ -210,10 +236,24 @@ a:visited {
 
 }
 .cont_education h1{
-  color: #95B2F4;;
+  color: #95B2F4;
 }
+
+.specializations span{
+  margin-bottom: 20px;
+}
+.specializations h2{
+  text-decoration: underline;
+  display: inline-block;
+  color: #95B2F4;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+
+
 .education h1{
-  color: #95B2F4;;
+  color: #95B2F4;
 }
 .project h1{
   color: #95B2F4;
@@ -234,6 +274,11 @@ a:visited {
   padding-bottom: 15px;
   font-size: 18;
   line-height: 1.6;
+}
+
+.work_experience ul{
+  list-style-type: circle;
+    margin-left: 5%;
 }
 
 .cont_education{
@@ -292,6 +337,17 @@ a:visited {
   padding-left: 60px;
 }
 
+.cont_span{
+  padding-left: 2%;
+
+}
+.cont_span a:link{
+  color: #95B2F4;
+  background-color: transparent;
+  padding-left: 1%;
+
+}
+
 .skills{
   margin-top: 10px;
   margin-right: 10px;
@@ -305,12 +361,25 @@ a:visited {
   font-size: 18;
 }
 
-.skills ul.course_list_1{
+.skills,  ul.course_list_1{
   line-height: 1.6;
   column-count: 2;
   padding: 10px;
   margin-bottom: 10px;
 }
+
+ul.prog_lang{
+  line-height: 1.6;
+  column-count: 2;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+
+
+
+
+
 
 .section_header{
   font-weight: bold;
