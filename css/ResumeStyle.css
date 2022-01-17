@@ -372,6 +372,9 @@ h1.work_header{
   margin-bottom: 10px;
 }
 
+h1.Work, h2.Work  {
+  color:white;
+}
 ul.prog_lang{
   line-height: 1.6;
   column-count: 2;
